@@ -1,6 +1,6 @@
 # Artifical Neural Network
 
-ANN for Mnist training and classification.
+ANN for [MNIST](https://en.wikipedia.org/wiki/MNIST_database) training and classification.
 
 ## Compile
 
