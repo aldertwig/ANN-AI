@@ -1,6 +1,6 @@
 # Artifical Neural Network
 
-ANN for Mnist training and validation.
+ANN for Mnist training and classification.
 
 ## Compile
 
@@ -12,5 +12,11 @@ javac *.java
 ### Training:
 
 ```console
-java Digits training-images.txt training-labels.txt validation-images.txt > result.txt
+java -cp . Digits training-images.txt training-labels.txt validation-images.txt > result.txt
+```
+
+### Check classifications
+
+```console
+java -cp . MnistLabelsCheck result.txt validation-labels.txt
 ```
